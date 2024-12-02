@@ -16,7 +16,7 @@ public class CreateDriverSession
         caps.setCapability("appium:deviceName", "pixel_8");
         caps.setCapability("appium:automationName", "UiAutomator2");
         caps.setCapability("appium:udid", "emulator-5554");
-        caps.setCapability("appium:app", "C:/Users/My Laptop/OneDrive/Desktop/Veeresh/Appium/And App/ApiDemos-debug.apk");
+        caps.setCapability("appium:app", "C:/Users/My Laptop/OneDrive/Desktop/Veeresh/Appium/Android App/ApiDemos-debug.apk");
 
         URL url = new URI("http://127.0.0.1:4723/").toURL();
 
