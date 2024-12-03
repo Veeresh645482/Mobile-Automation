@@ -38,8 +38,7 @@ public class LocatorsDemo
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
         driver.findElement(AppiumBy.accessibilityId("Gallery")).click();
         driver.findElement(AppiumBy.accessibilityId("1. Photos")).click();
-
-
+        
         WebElement ele = driver.findElement(AppiumBy.xpath("//*[@resource-id='io.appium.android.apis:id/gallery']/android.widget.ImageView[1]"));
 
         driver.executeScript("mobile: swipeGesture", ImmutableMap.of(

@@ -21,7 +21,11 @@ public class CreateDriverSessionUsingOptions
 
         AppiumDriver driver = new AppiumDriver(url, options);
 
+<<<<<<< HEAD
             WebElement ele = driver.findElement(AppiumBy.accessibilityId("Access'ibility"));
+=======
+        WebElement ele = driver.findElement(AppiumBy.accessibilityId("Access'ibility"));
+>>>>>>> origin/main
         System.out.print(ele.getText());
     }
 }
